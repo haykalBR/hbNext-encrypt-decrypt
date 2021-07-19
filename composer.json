@@ -1,0 +1,32 @@
+{
+    "name": "hbnext/encrypt-decrypt-bundle",
+    "description": "A simple module to encrypt and decrypt string.",
+    "type": "symfony-bundle",
+    "authors": [
+        {
+            "name": "haikel brinis",
+            "email": "haikelbrinis@gmail.com"
+        }
+    ],
+    "autoload": {
+      "psr-4": {
+        "hbNext\\EncryptDecryptBundle\\": "src/"
+      }
+    },
+     "require": {
+        "php": ">=7.2"
+      },
+      "license": "MIT",
+      "keywords": [
+        "encrypt",
+        "decrypt",
+        "MD5",
+        "Base64",
+        "security"
+      ],
+      "extra": {
+        "branch-alias": {
+          "dev-master": "master"
+        }
+      }
+}

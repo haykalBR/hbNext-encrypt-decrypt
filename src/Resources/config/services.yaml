@@ -1,0 +1,8 @@
+services:
+  _defaults:
+    autowire: true
+    public: false
+  hbNext\EncryptDecryptBundle\services\EncryptionInterface: '@hbNext\EncryptDecryptBundle\services\Encryption'
+  hbNext\EncryptDecryptBundle\services\Encryption:
+  hbNext\EncryptDecryptBundle\Twig\EncryptionExtension:
+    tags: [ 'twig.extension' ]
